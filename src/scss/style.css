@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  font-family: "Cormorant", serif;
+  background: linear-gradient(23deg, #110103, #0b3610, #040404, #450b32);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .main {
+  position: relative;
+  height: 100vh;
+} */
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+/* HEADER & NAV */
+.header {
+  position: fixed;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.134);
+  /* box-shadow: 0 2px 16px rgb(126, 72, 72); */
+}
+
+.nav {
+  height: 3.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav__logo {
+  color: var(--logo-color);
+  transition: color 0.4s;
+}
+
+.nav__actions {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.nav__actions a {
+  color: rgb(67, 255, 210);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav__search,
+.nav__login,
+.nav__toggle,
+.nav__close {
+  font-size: 1.25rem;
+  color: var(--purp-color);
+  cursor: pointer;
+  transition: color 0.4s;
+}
+
+:is(.nav__logo, .nav__search, .nav__login, .nav__toogle, .nav__link):hover {
+  color: var(--blu-color);
+}
+
+.index-head-1-btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.index-head-1 .index-head-1-img {
+  background-image: url(../../src/img/m.png);
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+}
+.index-head-1 .index-head-1-img img {
+  width: 100%;
+  background: linear-gradient(rgba(4, 10, 10, 0), rgb(4, 10, 10));
+}
+.index-head-1 .index-head-1-img .index-head-1-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.index-head-1 .index-head-1-img .index-head-1-text h1 {
+  font-size: 130px;
+  color: white;
+  line-height: 121.1px;
+  letter-spacing: 30px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.index-head-1 .index-head-1-img .index-head-1-text p {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.index-head-1 .index-head-1-img .index-head-1-text button {
+  width: 255px;
+  height: 50px;
+  background-color: rgb(67, 255, 210);
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
