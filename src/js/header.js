@@ -44,6 +44,7 @@ const navMenu = document.getElementById('nav-menu'),
 })
 
 
+
 // All tasks should be written as in the following example (you can
 //     use variable naming method or adding a comment after the expression):
     
