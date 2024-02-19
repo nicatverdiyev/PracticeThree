@@ -4,26 +4,16 @@ body {
   background: linear-gradient(55deg, #110103, #07240b, #040404, #450b32);
 }
 
-.index-head-3 {
-  background-image: url(../img/back.png);
-  -webkit-backdrop-filter: brightness(0.5);
-          backdrop-filter: brightness(0.5);
-  background-position: left;
-  background-position: right;
-  background-size: 65%;
-  background-repeat: no-repeat;
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* .main {
-  position: relative;
-  height: 100vh;
-} */
+.background-1 {
+  background: linear-gradient(244deg, #110103, #07240b, #040404, #450b32);
+}
+
 input,
 button {
   border: none;
@@ -394,6 +384,7 @@ a {
   cursor: pointer;
   overflow: hidden;
   scroll-behavior: smooth;
+  display: flex;
 }
 
 .carousel.dragging {
@@ -409,8 +400,8 @@ a {
   height: 340px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin: 40px;
   margin-left: 14px;
-  width: 33.3333333333%;
 }
 
 .carousel img:first-child {
@@ -436,7 +427,7 @@ a {
     width: 100%;
   }
 }
-.index-head-3 h2 {
+.index-head-3 .index-head-3-1 {
   font-family: Cormorant;
   font-size: 100px;
   font-weight: 400;
@@ -446,7 +437,7 @@ a {
   color: rgb(255, 255, 255);
 }
 
-.index-head-3 h3 {
+.index-head-3 .index-head-3-2 {
   color: rgb(255, 255, 255);
   font-family: Cormorant;
   font-size: 100px;
@@ -457,7 +448,7 @@ a {
   text-transform: uppercase;
 }
 
-.index-head-3 p {
+.index-head-3 .index-head-3-3 {
   color: rgb(255, 255, 255);
   font-family: Oswald;
   font-size: 20px;
@@ -465,4 +456,28 @@ a {
   line-height: 30px;
   letter-spacing: 2%;
   text-align: center;
+}
+
+.index-head-3 {
+  background-image: url(../img/back.png);
+  -webkit-backdrop-filter: brightness(0.2);
+          backdrop-filter: brightness(0.2);
+  background-position: left;
+  background-position: right;
+  background-size: 81%;
+  background-repeat: no-repeat;
+}
+
+.an {
+  /* Ellipse 34 */
+  position: absolute;
+  width: 342px;
+  height: 227px;
+  left: 65.42px;
+  right: 560.59px;
+  top: 623px;
+  bottom: 3432.11px;
+  transform: rotate(60.83deg);
+  filter: blur(155px);
+  background: rgba(67, 255, 210, 0.62);
 }/*# sourceMappingURL=style.css.map */

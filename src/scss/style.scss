@@ -3,14 +3,7 @@ body{
     font-family: 'Cormorant', serif;
     background: linear-gradient(55deg,#110103, #07240b, #040404, #450b32);
 }
-.index-head-3{
-  background-image: url(../img/back.png);
-  backdrop-filter: brightness(0.5);
-  background-position: left;
-  background-position: right;
-  background-size: 65%;
-  background-repeat: no-repeat;
-}
+
 * {
     padding: 0;
     margin: 0;
@@ -18,10 +11,10 @@ body{
 
 
   }
-  /* .main {
-    position: relative;
-    height: 100vh;
-  } */
+  .background-1{
+    background: linear-gradient(244deg,#110103, #07240b, #040404, #450b32);
+  
+  }
   input,
   button {
     border: none;
@@ -455,6 +448,7 @@ border: .5px solid #FFFFFF;
   cursor: pointer;
   overflow: hidden;
   scroll-behavior: smooth;
+  display: flex;
 }
 .carousel.dragging {
   cursor: grab;
@@ -466,8 +460,9 @@ border: .5px solid #FFFFFF;
 .carousel img {
   height: 340px;
   object-fit: cover;
+  margin: 40px;
   margin-left: 14px;
-  width: calc(100% / 3);
+  // width: calc(100% / 3);
 }
 .carousel img:first-child {
   margin-left: 0px;
@@ -495,7 +490,7 @@ svg{
     width: 100%;
   }
 }
-.index-head-3 h2{
+.index-head-3 .index-head-3-1{
   font-family: Cormorant;
 font-size: 100px;
 font-weight: 400;
@@ -504,7 +499,7 @@ letter-spacing: 0.02em;
 text-align: left;
 color: rgba(255, 255, 255, 1);
 }
-.index-head-3 h3{
+.index-head-3 .index-head-3-2{
   color: rgb(255, 255, 255);
 font-family: Cormorant;
 font-size: 100px;
@@ -514,7 +509,7 @@ letter-spacing: 2%;
 text-align: center;
 text-transform: uppercase;
 }
-.index-head-3 p{
+.index-head-3 .index-head-3-3{
   color: rgb(255, 255, 255);
 font-family: Oswald;
 font-size: 20px;
@@ -522,4 +517,25 @@ font-weight: 300;
 line-height: 30px;
 letter-spacing: 2%;
 text-align: center;
+}
+.index-head-3{
+  background-image: url(../img/back.png);
+  backdrop-filter: brightness(0.2);
+  background-position: left;
+  background-position: right;
+  background-size: 81%;
+  background-repeat: no-repeat;
+}
+.an{
+  /* Ellipse 34 */
+  position: absolute;
+  width: 342px;
+  height: 227px;
+  left: 65.42px;
+  right: 560.59px;
+  top: 623px;
+  bottom: 3432.11px;
+  transform: rotate(60.83deg);
+  filter: blur(155px);
+  background: rgb(67 255 210 / 62%);
 }
