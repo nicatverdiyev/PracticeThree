@@ -5,6 +5,11 @@ body{
 }
 .index-head-3{
   background-image: url(../img/back.png);
+  backdrop-filter: brightness(0.5);
+  background-position: left;
+  background-position: right;
+  background-size: 65%;
+  background-repeat: no-repeat;
 }
 * {
     padding: 0;
@@ -422,6 +427,7 @@ border: .5px solid #FFFFFF;
 .wrapper {
   max-width: 1200px;
   position: relative;
+  margin-top: 2rem;
 }
 .wrapper i {
   top: 50%;
@@ -497,6 +503,23 @@ line-height: 121px;
 letter-spacing: 0.02em;
 text-align: left;
 color: rgba(255, 255, 255, 1);
-
-
+}
+.index-head-3 h3{
+  color: rgb(255, 255, 255);
+font-family: Cormorant;
+font-size: 100px;
+font-weight: 400;
+line-height: 121px;
+letter-spacing: 2%;
+text-align: center;
+text-transform: uppercase;
+}
+.index-head-3 p{
+  color: rgb(255, 255, 255);
+font-family: Oswald;
+font-size: 20px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 2%;
+text-align: center;
 }
